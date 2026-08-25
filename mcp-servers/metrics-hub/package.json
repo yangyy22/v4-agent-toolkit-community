@@ -1,0 +1,15 @@
+{
+  "name": "@agent-toolkit/metrics-hub",
+  "version": "2.0.1",
+  "description": "Record and query tool-usage metrics via MCP",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.23.8"
+  }
+}

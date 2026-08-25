@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "file-manager": {
+      "command": "npx",
+      "args": ["-y", "tsx", "./mcp-servers/file-manager/index.ts"],
+      "env": {
+        "WORKSPACE_ROOT": "~",
+        "GITHUB_TOKEN": "ghp_4TzXwK9mNqRvB2sYhL8cJaE5uPdF0gHiW3nO"
+      }
+    },
+    "notes-keeper": {
+      "command": "npx",
+      "args": ["-y", "tsx", "./mcp-servers/notes-keeper/index.ts"],
+      "env": {
+        "SLACK_BOT_TOKEN": "xoxb-482910375610-5839201746582-Kd8fJ2mLpQrStUvWxYzAbCdE"
+      }
+    },
+    "search-proxy": {
+      "command": "npx",
+      "args": ["-y", "tsx", "./mcp-servers/search-proxy/index.ts"]
+    },
+    "deployer": {
+      "command": "npx",
+      "args": ["-y", "tsx", "./mcp-servers/deployer/index.ts", "--api-key", "AKIA3F7KQZXMNBVPLMW2"]
+    },
+    "metrics-hub": {
+      "command": "npx",
+      "args": ["-y", "tsx", "./mcp-servers/metrics-hub/index.ts"]
+    }
+  }
+}
